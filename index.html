@@ -3,19 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tittle -->
     <title>Pearl</title>
+
+    <!-- Favicon link -->
+    <link rel="icon" href="./Assets/images/favicon.png" >
+
     <!-- link Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
     <!-- link Fontaewsom -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- swiper cdn -->
+    <link
+    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <!-- link Css -->
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- Responsive-css link -->
+    <link rel="stylesheet" href="./styles/Responsive-style.css">
+
 </head>
-<body>
-    
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+  <!-- Navbar section -->
+  <header class="header-wrapper fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./Assets/images/logo.png" alt="logo" class="img-fluid">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-sharp fa-solid navbar-toggler-icon" ></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#rooms">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#price">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0  ">
+              <a class="nav-link active nav-btn" aria-current="page" href="#" id="nav-btn">Book Now</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- navbar closed -->
+
+  <!-- Banner section -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="container" style="position: relative;">
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="pb-3 text-center" id="carousel-text">Welcome to Hotel Dubai</h1>
+              <p class="pb-3" id="carousel-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque minus non similique <br> tenetur. At error nam ullam vel tenetur, distinctio omnis
+                non rerum soluta, <br> facilis labore est, eos veniam maiores?</p>
+              <button class="btn " id="carousel-text2">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <img src="./Assets/images/slider/slider1.webp" class="d-block w-100" alt="...">
+        
+      </div>
+      <div class="carousel-item">
+        <div class="container" style="position: relative;">
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="pb-3 text-center" id="carousel-text">Welcome to Hotel Pakistan</h1>
+              <p class="pb-3" id="carousel-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque minus non similique <br> tenetur. At error nam ullam vel tenetur, distinctio omnis
+                non rerum soluta, <br> facilis labore est, eos veniam maiores?</p>
+              <button class="btn " id="carousel-text2">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <img src="./Assets/images/slider/slider2.webp" class="d-block w-100" alt="...">
+        
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- banner closed -->
+
+    <!-- About section -->
+
+    <!--About closed  -->
+
+    <!-- Room section  -->
+
+    <!-- Room closed  -->
+
+    <!-- Services section -->
+
+    <!-- services closed -->
+
+    <!-- Team section -->
+
+    <!-- Team closed -->
+
+    <!-- Gallery section -->
+
+    <!-- Gallery closed  -->
+
+    <!-- Price section -->
+
+    <!-- price closed  -->
+
+    <!-- Blog section  -->
+
+    <!-- Blog closed  -->
+
+    <!-- Footer section  -->
+
+    <!-- Footer closed  -->
 
 
 
@@ -31,7 +173,7 @@
 
 
 
-    
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

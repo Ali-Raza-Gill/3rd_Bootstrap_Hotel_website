@@ -1,0 +1,42 @@
+@media(max-width:1199px){
+    /* header */
+    .header-wrapper .navbar-expand-lg .navbar-nav{
+        align-items: center;
+    }
+    .header-wrapper .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 3px;
+        font-size: 1rem;
+    }
+    #nav-btn{
+       padding: auto;
+       margin-right: 20px;
+    }
+    #nav-btn:hover{
+        color: black;
+    }
+
+    /* booking */
+
+
+    /* Services */
+    
+    
+}
+
+
+@media(max-width:991px){
+    /* Navbar  */
+
+    /* Banner Wrapper*/
+
+    /* About */
+
+    /* Services */
+
+    /* Rooms */
+
+}
+
+@media(max-width:767px){
+    
+}

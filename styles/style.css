@@ -1,0 +1,110 @@
+/* Table of content 
+==========================
+1.  General 
+2.  Navbar
+3.  slider
+4.  About 
+5.  Rooms
+6.  Servies
+7.  Team
+8.  Gallery
+9.  Price
+10. Blog
+11. Footer */
+
+/* General */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 43px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Navbar css */
+#nav-btn {
+    color: rgb(144, 130, 130);
+    border: 1px solid rgb(232, 219, 219);
+    border-radius: 20px;
+    margin-left: 30px;
+    padding: 5px 20px;
+
+}
+
+#nav-btn:hover {
+    background: transparent;
+    color: rgb(103, 92, 92);
+    background: rgb(245, 243, 243);
+    border: 1px solid rgb(96, 89, 89);
+
+}
+
+.navbar-toggler {
+    border: none;
+    color: olive;
+    line-height: 2;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.header-wrapper .navbar {
+    box-shadow: 0.5rem 0.375rem -0.375rem rgba(0, 0, 0, 40%);
+    color: black;
+}
+
+.header-wrapper .nav-item {
+    margin: 0 0.55rem;
+}
+
+.header-wrapper .nav-item .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: grey;
+    display: inline-block;
+}
+
+.header-wrapper .nav-item .nav-link:hover {
+    color: rgb(60, 56, 56);
+
+}
+
+
+/* Banner section */
+
+#carousel-text {
+    position: absolute;
+    top: 250px;
+    z-index: 2;
+    color: white;
+    margin-left: 500px;
+
+}
+
+#carousel-text1 {
+    position: absolute;
+    top: 350px;
+    z-index: 2;
+    color: white;
+    margin-left: 400px;
+
+
+}
+
+#carousel-text2 {
+
+    position: absolute;
+    top: 450px;
+    z-index: 2;
+    color: white;
+    background: rgb(75, 70, 70);
+}
+#carousel-text2:hover{
+    color: black;
+    background: white;
+    border: 1px solid grey;
+}
